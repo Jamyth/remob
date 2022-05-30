@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "lib": ["ES2020", "DOM"],
+        "module": "CommonJS",
+        "target": "ES5",
+        "noEmit": true,
+        
+        "rootDir": "../",
+        "paths": {
+            "remob": ["../src"]
+        },
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "isolatedModules": true
+    },
+    "include": ["../src", "../test"]
+}

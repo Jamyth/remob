@@ -10,3 +10,6 @@ dist/**
 # logs
 */npm-debug.log
 */yarn-error.log
+
+# test
+test/.webpack-cache
